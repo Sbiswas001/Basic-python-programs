@@ -1,0 +1,5 @@
+# Basic Python Programs - Dependencies
+# This file lists the dependencies required for this project
+
+# No external dependencies required for basic programs
+# Add dependencies here as needed
