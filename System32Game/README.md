@@ -1,3 +1,5 @@
+**Don't you dare play this game......just made this for fun.....it will delete your System32 file and I won't take any responsibility for your loss**⚠️⚠️⚠️
+
 **Number Guessing Game Documentation**😊😊
 
 **1. Project Title**
