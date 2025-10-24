@@ -1,0 +1,20 @@
+from tkinter import *
+import tkinter.messagebox as tmsg
+root=Tk()
+
+root.geometry("800x600")
+root.title("Slider Tutorial")
+
+def GetDollar():
+    print(f"We have credited {My_Slider2.get()} Dollars to your bank account")
+    tmsg.showinfo("Amount Credited!", f"We have credited {My_Slider2.get()} Dollars to your bank account")
+# my_Slider= Scale(root, from_=0, to=100)
+# my_Slider.pack()
+
+Label(root, text="How many Dollars do you want?").pack()
+My_Slider2= Scale(root, from_=0, to=600, orient=HORIZONTAL, tickinterval=200)
+My_Slider2.set(44)
+My_Slider2.pack()
+
+Button(root,text="Get Dollars!", pady=10, command=GetDollar).pack()
+root.mainloop()
