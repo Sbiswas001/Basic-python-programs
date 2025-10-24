@@ -1,6 +1,6 @@
 ## 🔢 Prime Numbers in a Given Range
 
-**File:** `prime_in_range.py`
+**File:** `primes_in_range.py`
 
 ### 🧠 About
 
@@ -12,7 +12,7 @@ It uses an optimized check up to the square root of each number to keep it effic
 ### 🧩 Features
 
 * Takes **start** and **end** input from the user.
-* Checks each number using a reusable function `is_prime()`.
+* Checks each number using a reusable function `isprime()`.
 * Displays all prime numbers in the range (if any).
 * Handles invalid input and incorrect ranges gracefully.
 
@@ -25,7 +25,7 @@ It uses an optimized check up to the square root of each number to keep it effic
 3. Run the program:
 
    ```bash
-   python prime_in_range.py
+   python primes_in_range.py
    ```
 4. Enter your desired range when prompted.
 
@@ -46,7 +46,6 @@ Prime numbers between 10 and 30 are:
 ### ⚙️ Logic Behind It
 
 * A number `n` is prime if it’s divisible only by `1` and `n`.
-* The program checks divisibility only up to `√n` for efficiency.
 * Non-positive numbers and 1 are excluded automatically.
 
 ---
