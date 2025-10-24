@@ -128,3 +128,6 @@ dmypy.json
 *.swp
 *.swo
 *~
+
+# db.sqlite3 file
+*.db
