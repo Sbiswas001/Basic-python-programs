@@ -26,4 +26,9 @@ git clone https://github.com/Sbiswas001/Basic-python-programs
 8. Follow rest of the steps
 
 # Contribution:
+1. Fork the parent repository
+2. Clone the repository
+3. Add your files to the folder
+4. Commit and push/sync changes
+5. Create pull request
 ## Feel free to modify and add features as you like B]
