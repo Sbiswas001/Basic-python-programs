@@ -1,0 +1,34 @@
+# Added by: Banisha — Hacktoberfest 2025
+# File: Basic-python-programs/banisha/factorial.py
+# Description: Calculate factorial of a non-negative integer.
+import sys
+
+def factorial(n):
+    """Iterative factorial: works for n >= 0"""
+    if n < 0:
+        raise ValueError("Negative numbers do not have factorials.")
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
+
+def main():
+    # Usage:
+    #   python factorial.py        -> uses default n = 5
+    #   python factorial.py 6      -> calculates factorial(6)
+    if len(sys.argv) > 1:
+        try:
+            n = int(sys.argv[1])
+        except ValueError:
+            print("Please provide a valid integer. Example: python factorial.py 6")
+            return
+    else:
+        n = 5  # default value for quick demo
+
+    try:
+        print(f"Factorial of {n} is {factorial(n)}")
+    except ValueError as e:
+        print(e)
+
+if __name__ == "__main__":
+    main()
