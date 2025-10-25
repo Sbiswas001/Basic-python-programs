@@ -1,39 +1,23 @@
-**Don't you dare play this game......just made this for fun.....it will delete your System32 file and I won't take any responsibility for your loss**⚠️⚠️⚠️
+# Simple Number Guessing Game
 
-**Number Guessing Game Documentation**😊😊
+A tiny, friendly console game written in Python. The program randomly selects a number between 1 and 100, prompts the user for a guess, and tells the user whether they guessed correctly.
 
-**1. Project Title**
+## Features
 
-Simple Console Number Guessing Game
+- Single-player console game
+- Random number generation between 1 and 100
+- Clear success / failure messages
+- Minimal dependencies (standard library only)
 
-**2. Overview**
+## Requirements
 
-This is a basic Python script that implements a classic number guessing game. The program generates a random integer between 1 and 100, prompts the user for a guess, and then checks if the guess is correct.
+- Python 3.6 or newer
+- No external libraries required
 
-**3. How It Works**
+## Usage
 
-**Initialization:** The script uses the random module to select a secret number.
+1. Save the game script as `guess_game.py`.
+2. Run the script from a terminal:
 
-**User Input:** It uses the input() function to prompt the user to enter their guess.
-
-**Comparison:** An if/else structure compares the user's input to the secret number.
-
-**Outcome:** The program prints a success message upon a correct guess or a friendly failure message (and reveals the correct number) upon an incorrect guess.
-
-**4. Execution Requirements**
-
-**Language:** Python 3.x
-
-**Dependencies:** Standard Python libraries (random). No external installations are required.
-
-**5. How to Run**
-
-Save the Python code (the clean, non-malicious version) to a file (e.g., guess_game.py).
-
-Open your command-line interface (CLI) or terminal.
-
-Execute the file using the Python interpreter:
-
-Bash
-
+```bash
 python guess_game.py
