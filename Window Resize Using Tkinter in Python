@@ -1,0 +1,17 @@
+from tkinter import *
+
+def update():
+    print("Updating the GUI")
+    root.geometry(f"{width.get()}x{height.get()}")
+root=Tk()
+root.geometry("800x600")
+root.title("Resize the window")
+width=StringVar()
+height=StringVar()
+
+Entry(root, textvariable=width).pack()
+Entry(root, textvariable=height).pack()
+
+Button(root,text="Apply", command=update).pack()
+
+root.mainloop()
