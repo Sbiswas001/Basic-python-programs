@@ -1,70 +1,53 @@
-# Basic Python Programs
 
-A collection of basic Python programs for learning and reference.
+## 🌡️ Temperature Converter (Python)
 
-## Programs Included
+### 📋 **Project Description**
 
-### 1. Factorial Calculator (`factorial.py`)
-Calculates the factorial of a given number using both iterative and recursive approaches.
+This is a simple Python program that converts temperature between **Celsius** and **Fahrenheit**.
+It allows the user to choose the conversion type and then displays the result with proper formatting.
 
-**Usage:**
-```bash
-python factorial.py
-```
+---
 
-**Features:**
-- Iterative factorial calculation
-- Recursive factorial calculation
-- Input validation and error handling
-- Interactive command-line interface
+### 🧠 **Concepts Used**
 
-## Getting Started
+* Conditional statements (`if`, `elif`, `else`)
+* Basic arithmetic operations
+* User input using `input()`
+* Type conversion (`float`, `int`)
+* String formatting (`f-strings`)
 
-### Prerequisites
-- Python 3.x
+---
+### ⚙️ **How to Run**
 
-### Installation
+1. Save the file as `temperature_converter.py`
+2. Open your terminal or command prompt
+3. Navigate to the folder where your file is saved
+4. Run the program using:
 
-1. Clone the repository:
-```bash
-git clone https://github.com/Sbiswas001/Basic-python-programs.git
-cd Basic-python-programs
-```
+   ```bash
+   python temperature_converter.py
+   ```
 
-2. (Optional) Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+---
 
-3. Install dependencies (if any):
-```bash
-pip install -r requirements.txt
-```
-
-## Running the Programs
-
-Each program can be run independently:
-
-```bash
-python factorial.py
-```
-
-## Project Structure
+### 🧾 **Sample Output**
 
 ```
-Basic-python-programs/
-│
-├── README.md           # Project documentation
-├── requirements.txt    # Python dependencies
-├── .gitignore         # Git ignore rules
-└── factorial.py       # Factorial calculator program
+Temperature Converter
+1. Celsius to Fahrenheit
+2. Fahrenheit to Celsius
+Enter your choice (1 or 2): 1
+Enter temperature in Celsius: 37
+37.0°C = 98.60°F
 ```
 
-## Contributing
+---
 
-Feel free to add more basic Python programs to this repository!
+### 🌟 **Future Improvements**
 
-## License
+* Add a **GUI interface** using `tkinter`
+* Support for **Kelvin** conversion
+* Include **input validation** and **error handling**
 
-This project is open source and available for educational purposes.
+
+
